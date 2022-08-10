@@ -8,3 +8,15 @@ Example-Config for nginx Reverse-Proxy
 Deutsch:
 Beispiel-Konfiguration für einen nginx Reverse-Proxy
 (Anzupassen: Domäne, Unter-Domäne [Ordner] und IP-Adressen)
+
+Save File here:
+ /etc/nginx/sites-available/
+
+Make a Sym-Link:
+ ln -s /etc/nginx/sites-available/reverse-proxy.conf /etc/nginx/sites-enabled/reverse-proxy.conf
+
+Test the Config:
+ nginx -t
+
+Reload nginx:
+ nginx -s reload
