@@ -9,6 +9,8 @@ Deutsch:
 Beispiel-Konfiguration für einen nginx Reverse-Proxy
 (Anzupassen: Domäne, Unter-Domäne [Ordner] und IP-Adressen)
 
+# How-To
+
 Save File here:
  /etc/nginx/sites-available/
 
